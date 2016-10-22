@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  line-height: 1.5rem;
   background-color: #f0eee8;
 }
 
@@ -13,7 +12,7 @@ html {
   color: #512200;
   border: 3px solid #9a816d;
   border-radius: 8px;
-  padding: 0.75rem;
+  padding: 1rem;
   text-decoration: none;
   display: block;
 }
@@ -34,17 +33,19 @@ h2 {
 p {
   display: block;
   font-size: 1.125rem;
+  line-height: 1.5rem;
 
 }
 
 dl {
   display: block;
+  line-height: 1.5;
 }
 
 dt {
   display: inline-block;
   width: 50%;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 dd {
@@ -62,7 +63,7 @@ dd {
 
 .btn {
   display: inline-block;
-  color: #f0eee8;
+  color: #fff;
   font-family: "Dosis", sans-serif;
   font-weight: bold;
   padding: 0.4em 0.75em 0.5em;
@@ -79,5 +80,6 @@ hr {
   border:0;
   border-top: 2px solid #9a816d;
   padding: 0rem;
-  margin: 0;
+  margin: 0 0 1rem;
+  display: block;
 }
